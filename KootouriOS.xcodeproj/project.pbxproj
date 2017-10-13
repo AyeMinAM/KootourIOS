@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FE198531F9176F7009ABACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198521F9176F7009ABACB /* AppDelegate.swift */; };
+		8FE198551F9176F7009ABACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198541F9176F7009ABACB /* ViewController.swift */; };
+		8FE198581F9176F7009ABACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE198561F9176F7009ABACB /* Main.storyboard */; };
+		8FE1985B1F9176F7009ABACB /* KootouriOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198591F9176F7009ABACB /* KootouriOS.xcdatamodeld */; };
+		8FE1985D1F9176F7009ABACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1985C1F9176F7009ABACB /* Assets.xcassets */; };
+		8FE198601F9176F7009ABACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1985E1F9176F7009ABACB /* LaunchScreen.storyboard */; };
+		8FE1986B1F9176F7009ABACB /* KootouriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1986A1F9176F7009ABACB /* KootouriOSTests.swift */; };
+		8FE198761F9176F7009ABACB /* KootouriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198751F9176F7009ABACB /* KootouriOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FE198671F9176F7009ABACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FE198471F9176F7009ABACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE1984E1F9176F7009ABACB;
+			remoteInfo = KootouriOS;
+		};
+		8FE198721F9176F7009ABACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FE198471F9176F7009ABACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE1984E1F9176F7009ABACB;
+			remoteInfo = KootouriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FE1984F1F9176F7009ABACB /* KootouriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KootouriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE198521F9176F7009ABACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FE198541F9176F7009ABACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FE198571F9176F7009ABACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FE1985A1F9176F7009ABACB /* KootouriOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KootouriOS.xcdatamodel; sourceTree = "<group>"; };
+		8FE1985C1F9176F7009ABACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE1985F1F9176F7009ABACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FE198611F9176F7009ABACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE198661F9176F7009ABACB /* KootouriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KootouriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE1986A1F9176F7009ABACB /* KootouriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KootouriOSTests.swift; sourceTree = "<group>"; };
+		8FE1986C1F9176F7009ABACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE198711F9176F7009ABACB /* KootouriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KootouriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE198751F9176F7009ABACB /* KootouriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KootouriOSUITests.swift; sourceTree = "<group>"; };
+		8FE198771F9176F7009ABACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE1984C1F9176F7009ABACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE198631F9176F7009ABACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE1986E1F9176F7009ABACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FE198461F9176F7009ABACB = {
+			isa = PBXGroup;
+			children = (
+				8FE198511F9176F7009ABACB /* KootouriOS */,
+				8FE198691F9176F7009ABACB /* KootouriOSTests */,
+				8FE198741F9176F7009ABACB /* KootouriOSUITests */,
+				8FE198501F9176F7009ABACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE198501F9176F7009ABACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1984F1F9176F7009ABACB /* KootouriOS.app */,
+				8FE198661F9176F7009ABACB /* KootouriOSTests.xctest */,
+				8FE198711F9176F7009ABACB /* KootouriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE198511F9176F7009ABACB /* KootouriOS */ = {
+			isa = PBXGroup;
+			children = (
+				8FE198521F9176F7009ABACB /* AppDelegate.swift */,
+				8FE198541F9176F7009ABACB /* ViewController.swift */,
+				8FE198561F9176F7009ABACB /* Main.storyboard */,
+				8FE1985C1F9176F7009ABACB /* Assets.xcassets */,
+				8FE1985E1F9176F7009ABACB /* LaunchScreen.storyboard */,
+				8FE198611F9176F7009ABACB /* Info.plist */,
+				8FE198591F9176F7009ABACB /* KootouriOS.xcdatamodeld */,
+			);
+			path = KootouriOS;
+			sourceTree = "<group>";
+		};
+		8FE198691F9176F7009ABACB /* KootouriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1986A1F9176F7009ABACB /* KootouriOSTests.swift */,
+				8FE1986C1F9176F7009ABACB /* Info.plist */,
+			);
+			path = KootouriOSTests;
+			sourceTree = "<group>";
+		};
+		8FE198741F9176F7009ABACB /* KootouriOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FE198751F9176F7009ABACB /* KootouriOSUITests.swift */,
+				8FE198771F9176F7009ABACB /* Info.plist */,
+			);
+			path = KootouriOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE1984E1F9176F7009ABACB /* KootouriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE1987A1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOS" */;
+			buildPhases = (
+				8FE1984B1F9176F7009ABACB /* Sources */,
+				8FE1984C1F9176F7009ABACB /* Frameworks */,
+				8FE1984D1F9176F7009ABACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KootouriOS;
+			productName = KootouriOS;
+			productReference = 8FE1984F1F9176F7009ABACB /* KootouriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FE198651F9176F7009ABACB /* KootouriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE1987D1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSTests" */;
+			buildPhases = (
+				8FE198621F9176F7009ABACB /* Sources */,
+				8FE198631F9176F7009ABACB /* Frameworks */,
+				8FE198641F9176F7009ABACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE198681F9176F7009ABACB /* PBXTargetDependency */,
+			);
+			name = KootouriOSTests;
+			productName = KootouriOSTests;
+			productReference = 8FE198661F9176F7009ABACB /* KootouriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FE198701F9176F7009ABACB /* KootouriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE198801F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSUITests" */;
+			buildPhases = (
+				8FE1986D1F9176F7009ABACB /* Sources */,
+				8FE1986E1F9176F7009ABACB /* Frameworks */,
+				8FE1986F1F9176F7009ABACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE198731F9176F7009ABACB /* PBXTargetDependency */,
+			);
+			name = KootouriOSUITests;
+			productName = KootouriOSUITests;
+			productReference = 8FE198711F9176F7009ABACB /* KootouriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FE198471F9176F7009ABACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Kootour;
+				TargetAttributes = {
+					8FE1984E1F9176F7009ABACB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8FE198651F9176F7009ABACB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FE1984E1F9176F7009ABACB;
+					};
+					8FE198701F9176F7009ABACB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FE1984E1F9176F7009ABACB;
+					};
+				};
+			};
+			buildConfigurationList = 8FE1984A1F9176F7009ABACB /* Build configuration list for PBXProject "KootouriOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FE198461F9176F7009ABACB;
+			productRefGroup = 8FE198501F9176F7009ABACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE1984E1F9176F7009ABACB /* KootouriOS */,
+				8FE198651F9176F7009ABACB /* KootouriOSTests */,
+				8FE198701F9176F7009ABACB /* KootouriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE1984D1F9176F7009ABACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE198601F9176F7009ABACB /* LaunchScreen.storyboard in Resources */,
+				8FE1985D1F9176F7009ABACB /* Assets.xcassets in Resources */,
+				8FE198581F9176F7009ABACB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE198641F9176F7009ABACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE1986F1F9176F7009ABACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE1984B1F9176F7009ABACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE198551F9176F7009ABACB /* ViewController.swift in Sources */,
+				8FE1985B1F9176F7009ABACB /* KootouriOS.xcdatamodeld in Sources */,
+				8FE198531F9176F7009ABACB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE198621F9176F7009ABACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE1986B1F9176F7009ABACB /* KootouriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE1986D1F9176F7009ABACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE198761F9176F7009ABACB /* KootouriOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FE198681F9176F7009ABACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE1984E1F9176F7009ABACB /* KootouriOS */;
+			targetProxy = 8FE198671F9176F7009ABACB /* PBXContainerItemProxy */;
+		};
+		8FE198731F9176F7009ABACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE1984E1F9176F7009ABACB /* KootouriOS */;
+			targetProxy = 8FE198721F9176F7009ABACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FE198561F9176F7009ABACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE198571F9176F7009ABACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FE1985E1F9176F7009ABACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE1985F1F9176F7009ABACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FE198781F9176F7009ABACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FE198791F9176F7009ABACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FE1987B1F9176F7009ABACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FE1987C1F9176F7009ABACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FE1987E1F9176F7009ABACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KootouriOS.app/KootouriOS";
+			};
+			name = Debug;
+		};
+		8FE1987F1F9176F7009ABACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KootouriOS.app/KootouriOS";
+			};
+			name = Release;
+		};
+		8FE198811F9176F7009ABACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KootouriOS;
+			};
+			name = Debug;
+		};
+		8FE198821F9176F7009ABACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KootouriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kootour.ios.KootouriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KootouriOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE1984A1F9176F7009ABACB /* Build configuration list for PBXProject "KootouriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE198781F9176F7009ABACB /* Debug */,
+				8FE198791F9176F7009ABACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE1987A1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE1987B1F9176F7009ABACB /* Debug */,
+				8FE1987C1F9176F7009ABACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE1987D1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE1987E1F9176F7009ABACB /* Debug */,
+				8FE1987F1F9176F7009ABACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE198801F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE198811F9176F7009ABACB /* Debug */,
+				8FE198821F9176F7009ABACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FE198591F9176F7009ABACB /* KootouriOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FE1985A1F9176F7009ABACB /* KootouriOS.xcdatamodel */,
+			);
+			currentVersion = 8FE1985A1F9176F7009ABACB /* KootouriOS.xcdatamodel */;
+			path = KootouriOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FE198471F9176F7009ABACB /* Project object */;
+}
