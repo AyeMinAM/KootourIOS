@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14111552EA593FBA845A625E /* Pods_KootouriOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776C80B419788F3803CDF19 /* Pods_KootouriOSTests.framework */; };
+		61E57ADB5B963A09B1565655 /* Pods_KootouriOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAE5AE19F1721E7BC4E54C5 /* Pods_KootouriOSUITests.framework */; };
 		8FE198531F9176F7009ABACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198521F9176F7009ABACB /* AppDelegate.swift */; };
 		8FE198551F9176F7009ABACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198541F9176F7009ABACB /* ViewController.swift */; };
 		8FE198581F9176F7009ABACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE198561F9176F7009ABACB /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		8FE198601F9176F7009ABACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1985E1F9176F7009ABACB /* LaunchScreen.storyboard */; };
 		8FE1986B1F9176F7009ABACB /* KootouriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1986A1F9176F7009ABACB /* KootouriOSTests.swift */; };
 		8FE198761F9176F7009ABACB /* KootouriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE198751F9176F7009ABACB /* KootouriOSUITests.swift */; };
+		CA35FAD40353460534781A24 /* Pods_KootouriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951BC65746DCD485396AF5A /* Pods_KootouriOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17F02A43ADEF325FAC4C57BD /* Pods-KootouriOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOSTests/Pods-KootouriOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19060646C53404C97D74906A /* Pods-KootouriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOS/Pods-KootouriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2776C80B419788F3803CDF19 /* Pods_KootouriOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KootouriOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAE5AE19F1721E7BC4E54C5 /* Pods_KootouriOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KootouriOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882EBA9867A2F979D1FCD79B /* Pods-KootouriOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOSUITests/Pods-KootouriOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FE1984F1F9176F7009ABACB /* KootouriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KootouriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE198521F9176F7009ABACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FE198541F9176F7009ABACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		8FE198711F9176F7009ABACB /* KootouriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KootouriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE198751F9176F7009ABACB /* KootouriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KootouriOSUITests.swift; sourceTree = "<group>"; };
 		8FE198771F9176F7009ABACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D9EE80016821F1C5EC7448 /* Pods-KootouriOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOSUITests/Pods-KootouriOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DABC445720F45276394E189F /* Pods-KootouriOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOSTests/Pods-KootouriOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4E0B04ACC0548F6D1AD91B5 /* Pods-KootouriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KootouriOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KootouriOS/Pods-KootouriOS.release.xcconfig"; sourceTree = "<group>"; };
+		F951BC65746DCD485396AF5A /* Pods_KootouriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KootouriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA35FAD40353460534781A24 /* Pods_KootouriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14111552EA593FBA845A625E /* Pods_KootouriOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E57ADB5B963A09B1565655 /* Pods_KootouriOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05E679DF45F9638310A7DC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19060646C53404C97D74906A /* Pods-KootouriOS.debug.xcconfig */,
+				E4E0B04ACC0548F6D1AD91B5 /* Pods-KootouriOS.release.xcconfig */,
+				17F02A43ADEF325FAC4C57BD /* Pods-KootouriOSTests.debug.xcconfig */,
+				DABC445720F45276394E189F /* Pods-KootouriOSTests.release.xcconfig */,
+				882EBA9867A2F979D1FCD79B /* Pods-KootouriOSUITests.debug.xcconfig */,
+				C6D9EE80016821F1C5EC7448 /* Pods-KootouriOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8FE198461F9176F7009ABACB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				8FE198691F9176F7009ABACB /* KootouriOSTests */,
 				8FE198741F9176F7009ABACB /* KootouriOSUITests */,
 				8FE198501F9176F7009ABACB /* Products */,
+				05E679DF45F9638310A7DC0E /* Pods */,
+				929F6B6C2C43E29FBBA4FB28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = KootouriOSUITests;
 			sourceTree = "<group>";
 		};
+		929F6B6C2C43E29FBBA4FB28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F951BC65746DCD485396AF5A /* Pods_KootouriOS.framework */,
+				2776C80B419788F3803CDF19 /* Pods_KootouriOSTests.framework */,
+				3BAE5AE19F1721E7BC4E54C5 /* Pods_KootouriOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE1987A1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOS" */;
 			buildPhases = (
+				8D4D6733564A7CF93456B2B6 /* [CP] Check Pods Manifest.lock */,
 				8FE1984B1F9176F7009ABACB /* Sources */,
 				8FE1984C1F9176F7009ABACB /* Frameworks */,
 				8FE1984D1F9176F7009ABACB /* Resources */,
+				889047C6530215CA024B3630 /* [CP] Embed Pods Frameworks */,
+				72721DDC6B264D1B34EAB6F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE1987D1F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSTests" */;
 			buildPhases = (
+				53E0AAEF5DECF462C70825F3 /* [CP] Check Pods Manifest.lock */,
 				8FE198621F9176F7009ABACB /* Sources */,
 				8FE198631F9176F7009ABACB /* Frameworks */,
 				8FE198641F9176F7009ABACB /* Resources */,
+				CDB9AC1F39E8B337A0390CDE /* [CP] Embed Pods Frameworks */,
+				7E480FFFA249436C07353BF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE198801F9176F7009ABACB /* Build configuration list for PBXNativeTarget "KootouriOSUITests" */;
 			buildPhases = (
+				4181A0DE7162A599BA5252F3 /* [CP] Check Pods Manifest.lock */,
 				8FE1986D1F9176F7009ABACB /* Sources */,
 				8FE1986E1F9176F7009ABACB /* Frameworks */,
 				8FE1986F1F9176F7009ABACB /* Resources */,
+				8B5003C1DAC29BA98603BA51 /* [CP] Embed Pods Frameworks */,
+				106FEBE5C222EE5B38EE9CD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106FEBE5C222EE5B38EE9CD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOSUITests/Pods-KootouriOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4181A0DE7162A599BA5252F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KootouriOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E0AAEF5DECF462C70825F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KootouriOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72721DDC6B264D1B34EAB6F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOS/Pods-KootouriOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E480FFFA249436C07353BF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOSTests/Pods-KootouriOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889047C6530215CA024B3630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOS/Pods-KootouriOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOS/Pods-KootouriOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5003C1DAC29BA98603BA51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOSUITests/Pods-KootouriOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4D6733564A7CF93456B2B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KootouriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB9AC1F39E8B337A0390CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KootouriOSTests/Pods-KootouriOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FE1984B1F9176F7009ABACB /* Sources */ = {
@@ -428,6 +627,7 @@
 		};
 		8FE1987B1F9176F7009ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19060646C53404C97D74906A /* Pods-KootouriOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +642,7 @@
 		};
 		8FE1987C1F9176F7009ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E0B04ACC0548F6D1AD91B5 /* Pods-KootouriOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +657,7 @@
 		};
 		8FE1987E1F9176F7009ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F02A43ADEF325FAC4C57BD /* Pods-KootouriOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +674,7 @@
 		};
 		8FE1987F1F9176F7009ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABC445720F45276394E189F /* Pods-KootouriOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		8FE198811F9176F7009ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882EBA9867A2F979D1FCD79B /* Pods-KootouriOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +707,7 @@
 		};
 		8FE198821F9176F7009ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D9EE80016821F1C5EC7448 /* Pods-KootouriOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
